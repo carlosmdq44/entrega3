@@ -1,5 +1,5 @@
 const Producto = require("../Contenedor");
-const prod = new Producto("productos.txt");
+const prod = new Producto("./productos.txt");
 
 const obtenerProductos = async () => { return await prod.getAll();}
 
